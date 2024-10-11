@@ -41,7 +41,7 @@ header {
   }
 
   nav {
-    width: 30%;
+    width: 40%;
 
     ul {
       display: flex;
@@ -65,7 +65,7 @@ header {
 
 main {
   article {
-    padding: 3rem;
+    padding: 3rem 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -78,23 +78,25 @@ main {
     }
   }
 
-  article.conscientizacao {
+  article#conscientizacao {
     color: #e4eef1;
   }
 
-  article.habitos {
+  article#dicas {
     padding: 8rem 0;
 
+    display: flex;
     justify-content: space-evenly;
   }
 }
 
 footer {
-  height: 20vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+
+  padding: 2rem 0;
 
   .links {
     width: 15%;

@@ -34,7 +34,7 @@ header .logo h3 {
   font-size: 2.8rem;
 }
 header nav {
-  width: 30%;
+  width: 40%;
 }
 header nav ul {
   display: flex;
@@ -52,7 +52,7 @@ header nav ul li a {
 }
 
 main article {
-  padding: 3rem;
+  padding: 3rem 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -62,20 +62,21 @@ main article p {
   text-align: justify;
   font-size: 2.5rem;
 }
-main article.conscientizacao {
+main article#conscientizacao {
   color: #e4eef1;
 }
-main article.habitos {
+main article#dicas {
   padding: 8rem 0;
+  display: flex;
   justify-content: space-evenly;
 }
 
 footer {
-  height: 20vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  padding: 2rem 0;
 }
 footer .links {
   width: 15%;
